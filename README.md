@@ -34,6 +34,11 @@
 - [x] File Store
 
 
+#Deploy to railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/k3BT8S)
+
+
 ## 🗂 ***Variables***
 
 Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
