@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Pachuklp/filterbotreq",
-    "repository": "https://github.com/Pachuklp/filterbotreq",
+    "website": "https://github.com/FarzanGit/charlie",
+    "repository": "https://github.com/FarzanGit/charlie",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
