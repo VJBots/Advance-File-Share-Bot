@@ -96,7 +96,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**Please Join My Updates Channel to use this Bot!**"""
+        text="""**Please Join My Updates Channel to use this Bot!(Only Need To Click Request To Join Then Click Try Again)**"""
 
         buttons = [
             [
@@ -104,6 +104,9 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             ],
             [
                 InlineKeyboardButton(" 🔄 Try Again 🔄 ", callback_data=f"{mode}#{file_id}")
+            ],
+            [   InlineKeyboardButton("Groups", url=https://t.me/Group_Linkzzzz),
+                InlineKeyboardButton("Ott Updates", url=https://t.me/Ott_Updatezz)
             ]
         ]
         
