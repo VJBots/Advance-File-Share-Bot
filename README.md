@@ -68,7 +68,7 @@ You can deploy this bot Anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Pachuklp/filterbotreq">
+<a href="https://heroku.com/deploy?template=https://github.com/FarzanGit/jerry">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
