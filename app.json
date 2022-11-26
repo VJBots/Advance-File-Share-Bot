@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/FarzanGit/jerry",
-    "repository": "https://github.com/FarzanGit/jerry",
+    "website": "https://FarzanGit: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@github.com/FarzanGit/jerry",
+    "repository": "https://FarzanGit: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@github.com/FarzanGit/jerry",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
