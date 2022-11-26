@@ -68,7 +68,7 @@ You can deploy this bot Anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://FarzanGit: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@github.com/FarzanGit/jerry">
+<a href="https://heroku.com/deploy?template=https://github.com/FarzanGit/jerry">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
