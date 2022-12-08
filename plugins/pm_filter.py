@@ -670,7 +670,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("Ott Update", url="https://t.me/ott_updatezz"),
+            InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
         ]
     )
     btn.insert(1,
