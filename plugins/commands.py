@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('📕ᴬᴮᴼᵁᵀ📕', url=f"https://t.me/{temp.U_NAME}?start=about"),
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton("Ott Updates", url="https://t.me/Ott_UpdatezTG"),
+                InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -130,6 +130,9 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
+                    
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+                    
                     protect_content=msg.get('protect', False),
                     )
             except Exception as e:
@@ -224,6 +227,9 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
+        
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+        
         protect_content=True if pre == 'filep' else False,
         )
                     
