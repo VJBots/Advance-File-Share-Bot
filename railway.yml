@@ -1,0 +1,7 @@
+
+services:
+  - name: handsomely-bomb
+    dockerfile: Dockerfile  # Path to your Dockerfile relative to the root of the repository
+    ports:
+      - 80
+  
