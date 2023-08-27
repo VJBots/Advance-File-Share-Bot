@@ -70,7 +70,7 @@ The fastest way to deploy the application is to click the **Deploy to Koyeb** bu
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/GreyMattersBot/File-Sharing-Bot
+git clone https://github.com/VJBots/Advance-File-Share-Bot
 cd File-Sharing-Bot
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
@@ -84,9 +84,9 @@ python3 main.py
 
 /batch - create link for more than one posts
 
-/genlink - create link for one post
+/link - create link for one post
 
-/users - view bot statistics
+/status - view bot statistics
 
 /broadcast - broadcast any messages to bot users
 
@@ -97,7 +97,7 @@ python3 main.py
 
 * `API_HASH` Your API Hash from my.telegram.org
 * `APP_ID` Your API ID from my.telegram.org
-* `TG_BOT_TOKEN` Your bot token from @BotFather
+* `BOT_TOKEN` Your bot token from @BotFather
 * `OWNER_ID` Must enter Your Telegram Id
 * `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
 * `DATABASE_URL` Your mongo db url
