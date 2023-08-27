@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Ott Updates", url="https://t.me/Ott_UpdatezTG"),
-                InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz")
+                InlineKeyboardButton("Updates", url="https://t.me/VJ_Bots"),
+                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -41,11 +41,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
             ],[
-            InlineKeyboardButton('♻️ Search Here ♻️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ Owner', url=f't.me/vjbots_bot'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -63,11 +63,11 @@ async def start(client, message):
             return
 
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
             ],[
-            InlineKeyboardButton('♻️ Search Here ♻️', switch_inline_query_current_chat='')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ Owner', url=f't.me/vjbots_bot'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -131,7 +131,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     
-                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")] ] ),
                     
                     protect_content=msg.get('protect', False),
                     )
@@ -228,7 +228,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/CMVilla_Group")] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")] ] ),
         
         protect_content=True if pre == 'filep' else False,
         )
