@@ -1,144 +1,159 @@
+# File-Sharing-Bot-With-RequestToJoin-Feature
+
 <p align="center">
-  <kbd>
-    <img src="assets/logo.jpg" alt="Eva Maria V2 Logo" width='200' height='200'>
-  </kbd>
+  <a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
+  </a>
+  <a href="https://t.me/VJ_Botz">
+    <img src="https://github.com/VJBots/PyrogramGenStr/blob/main/resources/madebycodex-badge.svg" width="250">
+  </a><br>
+  <a href="https://t.me/VJ_Botz">
+    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
+  </a>
+  <a href="https://t.me/vj_bot_disscussion">
+    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
+  </a>
+  <br>
+  <a href="https://github.com/VJBots/Advance-File-Share-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/VJBots/Advance-File-Share-Bot?style=social">
+  </a>
+  <a href="https://github.com/VJBots/Advance-File-Share-Bot/fork">
+    <img src="https://img.shields.io/github/forks/VJBots/Advance-File-Share-Bot?label=Fork&style=social">
+  </a>  
 </p>
-<h1 align="center">
-  <b>Eva Maria V2 Bot</b>
-</h1>
 
 
-[![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
-[![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
-[![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/EvaMaria)   
-[![Contributors](https://img.shields.io/github/contributors/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/EvaMaria/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+Telegram Bot to store Posts and Documents and it can Access by Special Links.
+I Guess This Will Be Usefull For Many People.....😇. 
+
+##
+
+**If you need any more modes in repo or If you find out any bugs, mention in [@support ](https://t.me/vj_bot_disscussion)**
+
+**Make sure to see [contributing.md](https://github.com/VJBots/Advance-File-Share-Bot/blob/main/CONTRIBUTING.md) for instructions on contributing to the project!**
 
 
-## 📚 ***Features***
 
-- [x] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
-- [x] File Store
+### Features
+- Request To Join Force Subscribe Feature
+- Fully customisable.
+- Customisable welcome & Forcesub messages.
+- More than one Posts in One Link.
+- Can be deployed deploy anywhere directly.
 
+### Setup
 
-#Deploy to railway
+- Add the bot to Database Channel with all permission
+- Add bot to ForceSub channel as Admin with Invite Users via Link Permission if you enabled ForceSub 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/k3BT8S)
+##
+### Installation
+#### Deploy on Heroku
+**BEFORE YOU DEPLOY ON HEROKU, YOU SHOULD FORK THE REPO AND CHANGE ITS NAME TO ANYTHING ELSE**<br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
+<a href="">
+  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
+</a><br>
+**Check This Tutorial Video on YouTube for any Help**<br>
+**Thanks to [Tech VJ](https://t.me/VJ_Botz) and his [Tech VJ](https://youtube.com/@Tech_VJ) for this Video**
 
+#### Deploy on Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/1jKLr4)
 
-## 🗂 ***Variables***
+#### Deploy on Koyeb
 
-Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
-
-### Required Variables
-* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
-* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-
-### Optional Variables
-* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
-* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/EvamariaTG/evamaria/blob/master/info.py) for more
+The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
 
-## 📑 ***Deploy :***
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/Advance-File-Share-Bot&branch=Tech_VJ&name=filesharingbot)
 
-You can deploy this bot Anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
+#### Deploy in your VPS
+````bash
+git clone https://github.com/GreyMattersBot/File-Sharing-Bot
+cd File-Sharing-Bot
+pip3 install -r requirements.txt
+# <Create config.py appropriately>
+python3 main.py
+````
 
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/FarzanGit/jerry">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
+### Admin Commands
 
-<details><summary>Deploy To VPS</summary>
-<p>
+```
+/start - start the bot or get posts
 
-```shell
-git clone https://github.com/EvamariaTG/evamaria
-#Install Packages
-pip3 install -U -r requirements.txt
-#Edit info.py with variables as given below then run bot
-python3 bot.py
+/batch - create link for more than one posts
+
+/genlink - create link for one post
+
+/users - view bot statistics
+
+/broadcast - broadcast any messages to bot users
+
+/stats - checking your bot uptime
 ```
 
-</p>
-</details>
+### Variables
+
+* `API_HASH` Your API Hash from my.telegram.org
+* `APP_ID` Your API ID from my.telegram.org
+* `TG_BOT_TOKEN` Your bot token from @BotFather
+* `OWNER_ID` Must enter Your Telegram Id
+* `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
+* `DATABASE_URL` Your mongo db url
+* `DATABASE_NAME` Your mongo db session name
+* `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/VJBots/Advance-File-Share-Bot/blob/main/README.md#start_message'>fillings</a>
+* `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
+* `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
+* `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
+
+### Extra Variables
+
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/VJBots/Advance-File-Share-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
+* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/VJBots/Advance-File-Share-Bot/blob/main/README.md#custom_stats'>fillings</a>
+* `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
 
 
-## Commands
-```
-• /logs - to get the rescent errors
-• /stats - to get status of files in db.
-* /filter - add manual filters
-* /filters - view filters
-* /connect - connect to PM.
-* /disconnect - disconnect from PM
-* /del - delete a filter
-* /delall - delete all filters
-* /deleteall - delete all index(autofilter)
-* /delete - delete a specific file from index.
-* /info - get user info
-* /id - get tg ids.
-* /imdb - fetch info from imdb.
-• /users - to get list of my users and ids.
-• /chats - to get list of the my chats and ids 
-• /index  - to add files from a channel
-• /leave  - to leave from a chat.
-• /disable  -  do disable a chat.
-* /enable - re-enable chat.
-• /ban  - to ban a user.
-• /unban  - to unban a user.
-• /channel - to get list of total connected channels
-• /broadcast - to broadcast a message to all Eva Maria users
-• /batch - to create link for multiple posts
-• /link - to create link for one post
-```
+### Fillings
+#### START_MESSAGE | FORCE_SUB_MESSAGE
 
-## Credits 
-* [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=Developers&color=critical)](https://telegram.dog/EvaMariaDevs)
+* `{first}` - User first name
+* `{last}` - User last name
+* `{id}` - User ID
+* `{mention}` - Mention the user
+* `{username}` - Username
 
-## Thanks to
- - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot)
- - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
- - Thanks To All Everyone In This Journey
+#### CUSTOM_CAPTION
 
-### 📝 Note By Subin : 
-***Note To A So Called Dev :***
+* `{filename}` - file name of the Document
+* `{previouscaption}` - Original Caption
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo won't make you a Developer.
-Fork the repo and edit as per your needs.
+#### CUSTOM_STATS
 
-## 🛃 ***5MysterySD What Doing ??***
-_Read Above Point Nicely, I am Just Maintaining the EvaMaria, Some Usage People, No Credits to Me, All Credits to Original Contributors of the Repo.
-Thank You .._
+* `{uptime}` - Bot Uptime
 
-## ⚠️ ***Disclaimer :***
 
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+## Support   
+Join Our [Telegram Group](https://www.telegram.dog/vj_bot_disscussion) For Support/Assistance And Our [Channel](https://www.telegram.dog/VJ_Botz) For Updates.   
+   
+Report Bugs, Give Feature Requests There..   
+
+### Credits
+
+- Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
+- Our Support Group Members
+
+### Licence
+[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+
+[FILE-SHARING-BOT](https://github.com/VJBots/Advance-File-Share-Bot) is Free Software: You can use, study share and improve it at your
+will. Specifically you can redistribute and/or modify it under the terms of the
+[GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
+published by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. 
+
+##
+
+   **Star this Repo if you Liked it ⭐⭐⭐**
