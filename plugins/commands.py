@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("Updates", url="https://t.me/VJ_Bots"),
-                InlineKeyboardButton("🍿 YouTube Channel 🍿", url="https://youtube.com/@Tech_VJ")
+                InlineKeyboardButton("Updates", url="https://t.me/infinityx_Lk"),
+                InlineKeyboardButton("🍿 backup 🍿", url="https://t.me/infinity_Lk")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -41,11 +41,11 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 backup 💗', url=f'http://t.me/infinity_,Lk')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/infinityx_Lk')
             ],[
-            InlineKeyboardButton('ℹ️ Owner', url=f't.me/vjbots_bot'),
+            InlineKeyboardButton('ℹ️ Owner', url=f't.me/nimsar_a'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -63,11 +63,11 @@ async def start(client, message):
             return
 
         buttons = [[
-            InlineKeyboardButton('💝 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 backup 💗', url=f'http://t.me/infinity_Lk')
             ],[
-            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/VJ_Botz')
+            InlineKeyboardButton('♻️ Update Channel ♻️', url=f'https://t.me/infinityx_Lk')
             ],[
-            InlineKeyboardButton('ℹ️ Owner', url=f't.me/vjbots_bot'),
+            InlineKeyboardButton('ℹ️ Owner', url=f't.me/nimsar_a'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
